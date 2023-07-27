@@ -1,0 +1,22 @@
+{
+  "name": "mern-shopping-list",
+  "version": "1.0.0",
+  "description": "shopping list built with MERN stack",
+  "main": "sever.js",
+  "scripts": {
+    "start": "node sever.js",
+    "sever": "nodemon sever.js"
+  },
+  "author": "vaughan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "concurrently": "^8.2.0",
+    "express": "^4.18.2",
+    "mongodb": "^5.7.0",
+    "mongoose": "^7.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
